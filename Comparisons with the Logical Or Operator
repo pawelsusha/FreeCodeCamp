@@ -1,0 +1,13 @@
+ //Comparisons with the Logical Or Operator
+  if (num > 10) {
+    return "No";
+  }
+  if (num < 5) {
+    return "No";
+  }
+  return "Yes";
+//the same result with ||
+  if (num > 10 || num < 5) {
+    return "No";
+  }
+  return "Yes";
